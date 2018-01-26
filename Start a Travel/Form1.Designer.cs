@@ -99,10 +99,10 @@
             // 
             this.sidemenu.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("sidemenu.BackgroundImage")));
             this.sidemenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.sidemenu.Controls.Add(this.MenuStrip);
             this.sidemenu.Controls.Add(this.MnuStrip_Top);
             this.sidemenu.Controls.Add(this.btn_Top);
             this.sidemenu.Controls.Add(this.btn_continentes);
+            this.sidemenu.Controls.Add(this.MenuStrip);
             this.sidemenu.Dock = System.Windows.Forms.DockStyle.Top;
             this.sidemenu.GradientBottomLeft = System.Drawing.Color.Purple;
             this.sidemenu.GradientBottomRight = System.Drawing.Color.Purple;
@@ -128,7 +128,7 @@
             this.MenuStrip.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
             this.MenuStrip.Location = new System.Drawing.Point(365, 15);
             this.MenuStrip.Name = "MenuStrip";
-            this.MenuStrip.Size = new System.Drawing.Size(602, 33);
+            this.MenuStrip.Size = new System.Drawing.Size(482, 33);
             this.MenuStrip.TabIndex = 6;
             this.MenuStrip.Text = "menuStrip";
             // 
@@ -336,7 +336,7 @@
             this.MnuStrip_Top.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
             this.MnuStrip_Top.Location = new System.Drawing.Point(365, 15);
             this.MnuStrip_Top.Name = "MnuStrip_Top";
-            this.MnuStrip_Top.Size = new System.Drawing.Size(482, 33);
+            this.MnuStrip_Top.Size = new System.Drawing.Size(602, 33);
             this.MnuStrip_Top.TabIndex = 7;
             this.MnuStrip_Top.Text = "menuStrip";
             // 
@@ -448,6 +448,7 @@
             this.toolStripMenuItem20.Name = "toolStripMenuItem20";
             this.toolStripMenuItem20.Size = new System.Drawing.Size(317, 30);
             this.toolStripMenuItem20.Text = "Ilha de Vaadhoo (Maldivas)";
+            this.toolStripMenuItem20.Click += new System.EventHandler(this.toolStripMenuItem20_Click);
             // 
             // btn_Top
             // 

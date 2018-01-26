@@ -1380,6 +1380,34 @@ namespace Start_a_Travel
             picboxBottom3.SizeMode = PictureBoxSizeMode.StretchImage;
             picboxBottom3.Image = Image.FromFile(FilePath4);
         }
+
+        private void toolStripMenuItem20_Click(object sender, EventArgs e)
+        {
+            Paises = "Vaadhoo";
+            panel_bottom.Width = picboxBottom1.Width;
+            panel_bottom.Left = picboxBottom1.Left;
+            panel_bottom.Visible = true;
+
+
+
+            picboxBottom0.SendToBack();
+            picboxBottom3.SendToBack();
+
+            //imagem Central
+            string FilePath = pasta_imagens + "Vaadhoo.jpg";
+            picboxCentral.SizeMode = PictureBoxSizeMode.StretchImage;
+            picboxCentral.Image = Image.FromFile(FilePath);
+
+            //Segunda imagem de baixo
+            string FilePath1 = pasta_imagens + "Vaadhoo.jpg";
+            picboxBottom1.SizeMode = PictureBoxSizeMode.StretchImage;
+            picboxBottom1.Image = Image.FromFile(FilePath1);
+
+            //Terceira imagem de baixo
+            string FilePath2 = pasta_imagens + "Vaadhoo2.jpg";
+            picboxBottom2.SizeMode = PictureBoxSizeMode.StretchImage;
+            picboxBottom2.Image = Image.FromFile(FilePath2);
+        }
     }
 
        
